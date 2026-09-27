@@ -2,6 +2,7 @@
 title = NEXUS
 package.name = nexus
 package.domain = com.nexus.ai
+source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,requests,gtts,openssl,certifi
