@@ -1,3 +1,13 @@
+from kivy.app import App
+from kivy.uix.label import Label
+
+class NexusApp(App):
+    def build(self):
+        return Label(text='Hello, NEXUS AI is Running!')
+
+if __name__ == '__main__':
+    NexusApp().run()
+
 import os
 import json
 import requests
