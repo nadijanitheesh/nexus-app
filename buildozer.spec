@@ -5,12 +5,11 @@ package.domain = com.nexus.ai
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,requests,gtts,openssl,certifi
+requirements = python3,requests,openssl,certifi
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 
-# ස්ථාවර SDK සහ NDK වර්ෂන් සැකසීම
 android.api = 30
 android.minapi = 21
 android.sdk = 30
