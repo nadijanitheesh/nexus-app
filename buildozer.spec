@@ -5,7 +5,10 @@ package.domain = com.nexus.ai
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,requests,openssl,certifi
+
+# මෙන්න මෙතැනට kivy එකතු කර ඇත
+requirements = python3,kivy,requests,openssl,certifi
+
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
