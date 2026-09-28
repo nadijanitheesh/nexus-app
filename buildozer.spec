@@ -10,10 +10,11 @@ orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 
-# --- මෙන්න මේ කොටස අලුතින් හෝ නිවැරදිව දමන්න ---
-android.api = 31
+# ස්ථාවර SDK සහ NDK වර්ෂන් සැකසීම
+android.api = 30
 android.minapi = 21
-android.sdk = 31
+android.sdk = 30
+android.ndk = 25b
 android.accept_sdk_license = True
 
 [buildozer]
